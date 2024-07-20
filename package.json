@@ -1,6 +1,7 @@
 {
   "name": "shopsphere",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,9 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lucide-react": "^0.411.0",
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "sass": "^1.77.8",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "postcss": "^8",
