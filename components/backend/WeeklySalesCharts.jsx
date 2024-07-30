@@ -48,36 +48,36 @@ export default function WeeklySalesCharts() {
         plugins: {
             legend: {
                 labels: {
-                    color: 'white'
+                    color: 'goldenrod'
                 }
             },
             tooltip: {
-                bodyColor: 'white' 
+                bodyColor: 'goldenrod' 
             }
         },
         scales: {
             x: {
                 ticks: {
-                    color: 'white'
+                    color: 'goldenrod'
                 },
                 grid: {
-                    color: 'rgba(255, 255, 255, 0.2)' 
+                    color: 'goldenrod' 
                 }
             },
             y: {
                 ticks: {
-                    color: 'white' 
+                    color: 'goldnrod' 
                 },
                 grid: {
-                    color: 'rgba(255, 255, 255, 0.2)' 
+                    color: 'goldenrod' 
                 }
             }
         }
     };
 
     return (
-        <div className='bg-slate-700 p-8 rounded-lg mt-8'>
-            <h2 className='text-white text-xl font-bold'>Weekly Charts</h2>
+        <div className='bg-slate-50 shadow-lg dark:bg-slate-700 text-slate-700 dark:text-slate-50 p-8 rounded-lg mt-8'>
+            <h2 className='text-xl font-bold'>Weekly Charts</h2>
 
             <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
                 <ul className="flex flex-wrap">

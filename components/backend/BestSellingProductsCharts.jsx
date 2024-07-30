@@ -20,15 +20,15 @@ export default function BestSellingProductsCharts() {
     };
 
     return (
-        <div className='bg-slate-700 p-8 rounded-lg mt-8'>
-            <h2 className='text-xl font-bold text-white'>Best Selling Products Charts</h2>
+        <div className='bg-slate-50 shadow-lg text-slate-800 dark:bg-slate-700 dark:text-slate-50 p-8 rounded-lg mt-8'>
+            <h2 className='text-xl font-bold '>Best Selling Products Charts</h2>
             <Pie
                 data={data}
                 options={{
                     plugins: {
                         legend: {
                             labels: {
-                                color: 'white',
+                                color: 'goldenrod',
                             }
                         },
                     }
